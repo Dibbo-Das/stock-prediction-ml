@@ -1,0 +1,26 @@
+# --- System Files ---
+.DS_Store
+Thumbs.db
+
+# --- Python ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.env
+
+# --- Machine Learning Data (CRITICAL) ---
+# We generally do NOT want to upload massive datasets to GitHub
+data/
+*.csv
+*.xlsx
+*.zip
+*.h5
+*.pkl
+
+# --- IDE Settings ---
+.vscode/
+.idea/
